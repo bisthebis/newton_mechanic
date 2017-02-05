@@ -10,9 +10,9 @@ public:
     PlanetData advance(QVector2D acceleration, float time) const;
 
 public:
-    const QVector2D position;
-    const QVector2D speed;
-    const float mass;
+    QVector2D position;
+    QVector2D speed;
+    float mass;
 };
 
 #endif // PLANETDATA_H
