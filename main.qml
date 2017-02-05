@@ -7,10 +7,17 @@ Window {
     height: 480
     title: qsTr("Hello World")
 
-    MainForm {
+    Planet {
+        anchors.centerIn: parent
+        name: "Terre"
+        radius: 20
+        color: "#0088FF"
+    }
+
+    /*MainForm {
         anchors.fill: parent
         mouseArea.onClicked: {
             Qt.quit();
         }
-    }
+    }//*/
 }
