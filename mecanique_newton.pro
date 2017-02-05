@@ -5,7 +5,8 @@ CONFIG += c++11
 
 SOURCES += main.cpp \
     planetdata.cpp \
-    simulationstep.cpp
+    simulationstep.cpp \
+    simulation.cpp
 
 RESOURCES += qml.qrc
 
@@ -17,4 +18,5 @@ include(deployment.pri)
 
 HEADERS += \
     planetdata.h \
-    simulationstep.h
+    simulationstep.h \
+    simulation.h

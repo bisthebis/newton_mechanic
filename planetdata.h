@@ -6,6 +6,7 @@
 struct PlanetData
 {
 public:
+    PlanetData() = default;
     PlanetData(QVector2D position, QVector2D speed, float mass);
     PlanetData advance(QVector2D acceleration, float time) const;
 
